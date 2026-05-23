@@ -1,0 +1,42 @@
+
+
+.about-content {
+  max-width: 800px;
+}
+
+.about-content h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.about-content p {
+  color: #c4c4c4;
+  line-height: 1.9;
+  margin-bottom: 20px;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.about-content p:hover {
+  color: white;
+}
+.cert-link{
+   display: inline-block;
+    border-bottom: 2px solid #4ee1a0;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-bottom: 12px;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.cert-link:hover{
+    transform: translateY(-4px);
+    color: #4ee1a0;
+
+    
+}
+

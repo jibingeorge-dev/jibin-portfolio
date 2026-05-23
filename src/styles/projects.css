@@ -1,0 +1,106 @@
+/* .projects {
+  padding: 120px 0;
+} */
+
+.projects h1 {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  transition: 0.5s ease;
+  padding: 8px;
+}
+.project-card:hover {
+  transform: translateY(-10px);
+  transform: translateY(-12px) scale(1.03);
+  
+  box-shadow: 0 10px 30px rgba(78, 225, 160, 0.2);
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.08),
+    transparent
+  );
+
+  transition: 0.8s;
+}
+
+.project-card:hover::before {
+  left: 100%;
+}
+.project-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: fill;
+  transition: 0.5s;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+.project-card h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #c4c4c4;
+  margin-bottom: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 20px;
+}
+.project-buttons button {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #4ee1a0;
+  color: white;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  
+}
+
+.project-btn{
+   background: transparent;
+  border: none;
+  border-bottom: 2px solid #4ee1a0;
+  color: white;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+  text-decoration: none;
+   font-size: 13px;
+   font-family: inherit;
+}
+.project-btn:hover{
+  color: #4ee1a0;
+  transform: translateY(-5px);
+}
+
+.project-buttons button:hover {
+  color: #4ee1a0;
+  transform: translateY(-5px);
+}
