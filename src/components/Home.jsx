@@ -11,19 +11,19 @@ function Home() {
       <Navbar />
       <Hero />
 
-      <div className="section-divider"></div>
+      <div className="section-divider reveal"></div>
 
       <About />
 
-      <div className="section-divider"></div>
+      <div className="section-divider reveal"></div>
 
       <Skills />
 
-      <div className="section-divider"></div>
+      <div className="section-divider reveal"></div>
 
       <Projects />
 
-      <div className="section-divider"></div>
+      <div className="section-divider reveal"></div>
 
       <Contact />
     </>
