@@ -20,7 +20,7 @@ function Projects() {
 
           <div className='project-buttons'>
             <button>VIEW PROJECT</button>
-            <button>VIEW CODE</button>
+            <a href="https://github.com/jibingeorge-dev/luxe-studio-ecommerce.git" target="_blank" rel="noopener noreferrer" className="project-btn">VIEW CODE</a>
           </div>
         </div>
 
@@ -32,8 +32,8 @@ function Projects() {
           <p>React.js • HTML • CSS • Animations </p>
 
           <div className='project-buttons'>
-            <button>VIEW PROJECT</button>
-            <button>VIEW CODE</button>
+             <a href="https://jibin-portfolio-wine.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-btn">VIEW PROJECT</a>
+            <a href="https://github.com/jibingeorge-dev/jibin-portfolio.git" target="_blank" rel="noopener noreferrer" className="project-btn">VIEW CODE</a>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ function Projects() {
 
           <div className='project-buttons'>
             <button>VIEW PROJECT</button>
-            <button>VIEW CODE</button>
+            <a href="https://github.com/jibingeorge-dev/Receipe-Landing-Page.git" target="_blank" rel="noopener noreferrer" className="project-btn">VIEW CODE</a>
           </div>
         </div>
         <div className='project-card reveal delay-2'>
@@ -72,7 +72,7 @@ function Projects() {
 
           <div className='project-buttons'>
             <button>VIEW PROJECT</button>
-            <button>VIEW CODE</button>
+            <a href="https://github.com/jibingeorge-dev/Interactive-Quiz-Application.git" target="_blank" rel="noopener noreferrer" className="project-btn">VIEW CODE</a>
           </div>
         </div>
 

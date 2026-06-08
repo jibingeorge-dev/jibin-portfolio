@@ -17,7 +17,7 @@ function Hero() {
       <div className="hero-buttons fade-up delay-3">
 
                  <a href="#contact" onClick={() => setMenuOpen(false)} className="contact-btn">HIRE ME</a>
-                 <a href="/Jibin_Resume.pdf" download className="cv-btn">DOWNLOAD CV</a>
+                 <a href="/Jibin_George_Resume.pdf" download className="cv-btn">DOWNLOAD CV</a>
 
       </div>
       
